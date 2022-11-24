@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+th {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+}
+
+tr {
+  background-color: darkgray;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+input {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  text-align: center;
+  background-color: rgb(51, 132, 132);
+  height: 80px;
+  padding-top: 10px;
+}
+footer {
+  background-color: rgb(51, 132, 132);
+  height: 70px;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+input {
+  text-align: center;
+  justify-content: center;
+  height: 30px;
+  width: 300px;
+  margin: 20px;
+}
+#form_div {
+  /* background-color: blue; */
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  height: 450px;
+}
+button {
+  background-color: rgb(51, 132, 132);
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  font-size: large;
+}
+#btn_1 {
+  height: 45px;
+  width: 150px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
