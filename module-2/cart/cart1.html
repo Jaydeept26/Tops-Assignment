@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart1.css" />
+    <script src="cart1.js"></script>
+  </head>
+  <body>
+    <div>
+      <table>
+        <div>
+          <th>image</th>
+          <th>product name</th>
+          <th>qty</th>
+          <th>price</th>
+          <th>total</th>
+          <th>dlt</th>
+        </div>
+        <div>
+          <tr>
+            <td>
+              <img
+                src="https://4.imimg.com/data4/AA/HC/MY-26596027/men-s-fancy-t-shirt-500x500.jpg"
+                alt="t-shirt"
+              />
+            </td>
+            <td>t-shirt</td>
+            <td>
+              <input
+                type="number"
+                value="1"
+                max="10"
+                min="1"
+                id="qty_1"
+                onchange="subtotal()"
+              />
+            </td>
+            <td><input type="number" value="500" readonly id="prc_1" /></td>
+            <td id="ttl_1"></td>
+            <td><button>Remove</button></td>
+          </tr>
+          <!-- <div>
+            <td colspan="3">sub total</td>
+            <td id="st"></td>
+          </div> -->
+        </div>
+
+        <!-- <div>
+          <th>image</th>
+          <th>product name</th>
+          <th>qty</th>
+          <th>price</th>
+          <th>dlt</th>
+        </div> -->
+        <div>
+          <tr>
+            <td>
+              <img
+                src="https://imagescdn.thecollective.in/img/app/product/7/777867-8999606.jpg?"
+                alt="men jeans"
+              />
+            </td>
+            <td>men jeans</td>
+            <td>
+              <input
+                type="number"
+                value="1"
+                max="10"
+                min="1"
+                id="qty_2"
+                onchange="subtotal()"
+              />
+            </td>
+            <td><input type="number" value="1000" readonly id="prc_2" /></td>
+            <td id="ttl_2"></td>
+            <td><button>Remove</button></td>
+          </tr>
+          <div>
+            <th colspan="4">sub total</th>
+            <th id="sttl"></th>
+          </div>
+        </div>
+      </table>
+    </div>
+  </body>
+</html>
