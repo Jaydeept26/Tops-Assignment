@@ -1,0 +1,45 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.MyApp
+{
+    width:50%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    overflow-x: hidden;
+    margin-top: 2%;
+    margin-left: 25%;
+    color: black;
+    
+}
+.MyApp h1 
+{
+    text-align: center;
+
+}
+
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    background-color: black;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 15px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
